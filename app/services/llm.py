@@ -10,7 +10,7 @@ litellm.failure_callback = ["opentelemetry"]
 
 # Define our model tiers (using standard OpenAI format against NVIDIA base URL)
 MODELS = {
-    "cheap": "openai/google/gemma-3-12b-it",
+    "cheap": "openai/google/gemma-4-31b-it",
     "powerful": "openai/nvidia/llama-3.1-nemotron-70b-instruct"
 }
 
