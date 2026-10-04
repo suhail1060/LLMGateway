@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+litellm
+redis
+sentence-transformers
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-instrumentation-fastapi
+opentelemetry-exporter-otlp
+python-dotenv
