@@ -9,8 +9,8 @@ litellm.failure_callback = ["opentelemetry"]
 
 # Define our model tiers (using NVIDIA hosted models)
 MODELS = {
-    "cheap": "nvidia_nim/meta/llama3-8b-instruct",
-    "powerful": "nvidia_nim/meta/llama3-70b-instruct"
+    "cheap": "nvidia_nim/google/gemma-3-12b-it",
+    "powerful": "nvidia_nim/nvidia/llama-3.1-nemotron-70b-instruct"
 }
 
 def classify_intent(messages: list) -> str:
